@@ -30,7 +30,7 @@ int main() {
     dest.sin_port = htons(TARGET_PORT);
     dest.sin_addr.s_addr = inet_addr(TARGET_IP);
 
-    const char* message = "{\"status\":\"alive\",\"id\":\"beacon-001\",\"time\":1234567890}";
+    const char* message = "{\"status\":\"alive\",\"id\":\"beacon-002\",\"time\":1234567890}";
     int beacon_count = 0;
 
     while (true) {
